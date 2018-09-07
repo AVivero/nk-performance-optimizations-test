@@ -1,0 +1,20 @@
+﻿div.row {
+    margin-bottom: 30px;
+}
+
+section.freespiritpages div.row p {
+    display: table-cell;
+    font-family: 'Source Sans Pro',Helvetica,Sans-Serif;
+    height: 133px;
+    margin: 0;
+    padding: 0 20px 0px 40px;
+    vertical-align: middle;
+    width: 596px;
+    border: 0px solid #000;
+}
+
+p.bigfont {
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 36px;
+}

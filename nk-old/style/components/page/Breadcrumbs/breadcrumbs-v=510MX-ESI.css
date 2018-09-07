@@ -1,0 +1,117 @@
+﻿.container-fluid.breadcrumbs {
+	background-color: #fff;
+	border-bottom: 2px solid #000
+}
+hr.large {
+	background-color:#000;
+	height:2px;
+	width:100%;
+	margin-top:6px;
+}
+.circle-selected {
+	color: #fff;
+	background: #000;
+}
+.circle-unselected {
+	color: #000;
+	background: #fff;
+}
+.circle {
+	width: 1.1112rem;
+	height: 1.1112rem;
+	border-radius: 50%;
+	line-height: 1rem;
+	text-align: center;
+	display: inline-block;
+	margin-right: .25rem;
+	border: 1px solid #000;
+	
+}
+.circle-sm {
+	width: .67rem !important;
+	height: .67rem !important;
+	font-size: .67rem !important;
+	border-radius: 50%;
+	line-height: .67rem !important;
+	margin-right: .56rem;
+	border: 1px solid #707070;
+	background-color:#fff;
+}
+.circle-sm-selected {
+	background-color: #0073e6;
+}
+.circle-container {
+	display: inline-block;
+	padding: 0 .25rem .5rem .25rem;
+	/*margin-right:.75rem;*/
+	font-size: .778rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+#triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #2F7F29;
+	margin-bottom: 5px;
+}
+
+.progress-bar-container {
+	background-color: #FFEC00;
+	padding: 0 0 .25rem 0;
+	margin-top: -.5rem;
+	text-transform: uppercase;
+}
+
+.progress-bar-container .h4 {
+	font-size: .778rem;
+}
+
+	.progress-bar-container .progress {
+		background-color: #fff;
+		border: 1px solid #707070;
+		height: 1rem;
+		margin-bottom: .5rem;
+		border-radius: 6px;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+
+.dot-container {
+	height:1.11rem;
+	display:flex;
+	justify-content:space-between;
+}
+
+@media (max-width: 320px) {
+	.container-fluid.breadcrumbs aside.breadcrumbs {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+}
+
+@media (max-width: 991px) {
+	.container-fluid.breadcrumbs {
+		background-color: #FFEC00;
+		border-bottom: none;
+	}
+}
+
+@media (min-width: 1200px) {
+	.circle-container {
+		font-size: 1rem;
+	}
+	
+	.circle {
+		width: 1.45rem;
+		height: 1.45rem;
+		padding-top: 2px; 
+	}
+}
+
+div#progress-bar-hidden {
+    height:0;
+    border:none;
+}

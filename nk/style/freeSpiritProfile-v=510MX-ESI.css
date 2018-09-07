@@ -1,0 +1,751 @@
+/*tbody
+{
+	display:table-row-group!important;	
+}
+tr
+{
+	display:table-row!important;	
+}
+*/
+/* generic form styles */
+
+
+
+
+table td
+{	
+	/*position:relative;*/
+}
+table#changeProfileContactInfo
+{
+	/*position:relative;*/
+}
+/*
+div.freeSpiritAccount {
+*/
+div#freeSpiritProfileLanding,
+div#freeSpiritChangeInfo,
+div#freeSpiritComPrefs,
+div#freeSpiritStatements,
+div#freeSpiritRedeemMiles,
+div#freeSpiritRequestMiles{
+	font-family: Arial, Helvetica, sans-serif;
+	width:458px;
+	float:left;
+	font-size:12px;
+}
+div#freeSpiritChangeInfo table tr td,
+div#freeSpiritChangeInfo table tr td label
+{
+	font-size:14px;	
+	font-weight:normal;
+	color:#333333;
+	margin:0px;
+}
+div#freeSpiritChangeInfo table tr td label
+{
+	white-space:nowrap;
+}
+div#freeSpiritProfileLanding h2,
+div#freeSpiritChangeInfo h2,
+div#freeSpiritComPrefs h2,
+div#freeSpiritStatements h2,
+div#freeSpiritRedeemMiles h2,
+div#freeSpiritRequestMiles h2
+{
+	font-size:24px;
+	text-transform:none;
+	font-weight:normal;
+	margin:0px 0px 30px 0px;
+	padding:0px;
+}
+div#freeSpiritProfileLanding h3,
+div#freeSpiritChangeInfo h3
+{
+	font-size:18px;
+	text-transform:none;
+	font-weight:normal;
+	padding:0px;
+	border-bottom:solid 1px #e1e1e1;
+	color:#333333;
+}
+div#freeSpiritProfileLanding h3
+{
+	margin:0px 0px 20px 0px;
+}
+div#freeSpiritChangeInfo h3#yourInfoTitle,
+div#freeSpiritChangeInfo h3#yourEmailTitle,
+div#freeSpiritChangeInfo h3#yourPasswordTitle
+{
+	margin:0px;	
+}
+div#freeSpiritProfileLanding div.regularBox h3 span.redText
+{
+	color:#c42000;
+	font-weight:bold;
+	font-size:18px;
+}
+div#freeSpiritProfileLanding div.regularBox h3#ninedfcLogo
+{
+	background-image:url("../images/9dfcLogoSmall.jpg") !important;
+	background-repeat:no-repeat;
+	background-position:bottom right;
+
+}
+div#freeSpiritProfileLanding div.regularBox h3#fspTittle,
+div#freeSpiritChangeInfo div.regularBox h3#fspTittle
+{
+	background-image:url("../images/fsLogoSmall.jpg");
+	background-repeat:no-repeat;
+	background-position:bottom right;
+
+}
+
+div#freeSpiritProfileLanding div.blueBgBox,
+div#freeSpiritChangeInfo div.blueBgBox
+{
+	font-size:18px;
+	background-color:#d9e9f9;
+	height:55px;
+	width:458px;
+	text-align:center;
+	line-height:55px;
+	margin-bottom:20px;	
+	float:left;
+}
+div#freeSpiritProfileLanding div.smallBox,
+div#freeSpiritChangeInfo div.smallBox
+{
+	width:229px;
+	height:auto;
+	margin-bottom:20px;
+	float:left;
+}
+div#freeSpiritProfileLanding div.regularBox,
+div#freeSpiritChangeInfo div.regularBox
+{
+	font-size:18px;
+	text-transform:none;
+	font-weight:normal;
+	padding:0px;
+	color:#333333;
+/*
+	float:left;
+	width:458px;
+	height:auto;
+*/
+}
+div#freeSpiritProfileLanding div.regularBox span,
+div#freeSpiritProfileLanding div.regularBox table,
+div#freeSpiritChangeInfo div.regularBox table{
+	font-size:11px;
+}
+div#freeSpiritProfileLanding div.section{
+	width: 428px;
+	margin: 10px 0px 30px 0;
+	padding: 15px;
+	background: #EFEFF0;
+	float:left;
+}
+div#freeSpiritProfileLanding div.section span
+{
+	height:75px;
+	width:100%;
+	float:left;	
+}
+div#freeSpiritProfileLanding div.section .textField{
+	height:33px;
+	width:70%;
+	line-height:33px;
+	font-size:18px;
+	border:1px solid #D6D6D6;
+	color:#333333;
+	padding:0px 10px;
+	margin:5px 10px 0px 0px;
+	-moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	background-color:#FFFFFF;
+	float:left;
+}
+.greenButton{
+	height:27px;
+	width:auto;
+	border:solid 1px #738321;
+	-moz-box-shadow: 2px 2px 5px grey;
+	-webkit-box-shadow: 2px 2px 5px grey;
+    box-shadow: 2px 2px 5px grey;
+	-moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	/*line-height:33px;*/
+	*line-height:25px;
+	padding:2px 20px;
+	background-image:url("../images/green_Bg.jpg");
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#b6c95c,endColorStr=#96b749);
+	background: -moz-linear-gradient(top, #b6c95c, #96b749)!important;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#b6c95c), to(#96b749));
+	text-align:center;
+	font-size:20px;
+	margin-top:5px;
+	float:left;
+	font-family:Arial,Helvetica,sans-serif
+}
+div#freeSpiritProfileLanding a.greenButton:link, 
+div#freeSpiritProfileLanding a.greenButton:visited, 
+div#freeSpiritProfileLanding a.greenButton:hover, 
+div#freeSpiritProfileLanding a.greenButton:active
+{
+	color:#FFFFFF;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-shadow:0px 1px 1px #666666;
+}
+div.profileInfoContent a.greenButton:link, 
+div.profileInfoContent a.greenButton:visited, 
+div.profileInfoContent a.greenButton:hover, 
+div.profileInfoContent a.greenButton:active{
+	color:#FFFFFF;
+	text-decoration:none;
+	font-weight:bold;
+	text-shadow:0px 1px 1px #666666;
+}
+div#freeSpiritProfileLanding div.regularBox table{
+	width:458px;
+	table-layout:fixed;
+	margin:10px 0px 20px 0px;
+}
+div#freeSpiritChangeInfo div.regularBox table
+{
+	width:100%;
+	table-layout:fixed;
+	margin:10px 0px 20px 0px;
+}
+div#freeSpiritProfileLanding div.regularBox table#profileCurrentReservations thead tr th,
+div#freeSpiritProfileLanding div.regularBox table#profilePastReservations thead tr th {
+	background-color:#415992;
+	color:#FFF;
+	height:30px;
+	border-bottom:solid 1px #FFFFFF;
+	text-align:left;
+	vertical-align:middle;
+	padding:5px 0px 5px 10px;
+}
+div#freeSpiritProfileLanding div.regularBox table#profileCurrentReservations tbody,
+div#freeSpiritProfileLanding div.regularBox table#profilePastReservations tbody
+{
+	border-bottom:solid 1px #FFFFFF;
+}
+div#freeSpiritProfileLanding div.regularBox table#profileCurrentReservations tbody tr td,
+div#freeSpiritProfileLanding div.regularBox table#profilePastReservations tbody tr td
+{
+	height:30px;
+	text-align:left;
+	vertical-align:middle;
+	padding:5px 0px 5px 10px;
+}
+div#freeSpiritProfileLanding div.regularBox table tr.rowHighlightDark{
+	background-color:#e3e3e3;
+}
+div#freeSpiritProfileLanding div.regularBox table tr.rowHighlightSoft{
+	background-color:#EFEFF0;
+}
+
+div#left-nav{
+	font-family: Arial, Helvetica, sans-serif;
+	width:220px;
+	float:left;
+	margin-right:6px;
+}
+div#left-nav ul.freeSpiritNavLeft{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+div#left-nav ul.freeSpiritNavLeft li{
+	line-height:38px;
+	min-height:38px;
+	border-bottom:solid 1px #d6d6d6;
+}
+div#left-nav ul.freeSpiritNavLeft li div.navLeftIcon{
+	width:28px;
+	float:left;
+	height:17px;
+}
+div#left-nav ul.freeSpiritNavLeft li span.navLeftLinkArrow{
+	font-size:12px;
+	color:#475793;
+}
+div#left-nav ul.freeSpiritNavLeft li div img{
+	margin-top:10px;
+}
+div#left-nav ul.freeSpiritNavLeft li ul.navLeftLinkOptions{
+	display:none;
+	width:auto;
+	height:auto;
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+div#left-nav ul.freeSpiritNavLeft li ul.navLeftLinkOptions li{
+	margin:0px;
+	padding:0px 0px 0px 38px;
+	line-height:20px;
+	min-height:20px;
+	position:relative;
+	border:none;
+}
+div#left-nav ul.freeSpiritNavLeft li ul.navLeftLinkOptions li span.treeMap{
+	position:absolute;
+	top:-12px;
+	left:28px;
+}
+a.leftNavLink:link , a.leftNavLink:visited, a.leftNavLink:hover, a.leftNavLink:active {
+	color:#475793;
+	text-decoration:none;
+	font-size:14px;
+	font-weight:bold;
+}
+a.leftNavLinkOption:link , a.leftNavLinkOption:visited, a.leftNavLinkOption:hover, a.leftNavLinkOption:active{
+	color:#475793;
+	text-decoration:none;
+	font-size:13px;
+	font-weight:bold;
+}
+
+
+a.billingUpdateLink:link , a.billingUpdateLink:visited, a.billingUpdateLink:hover, a.billingUpdateLink:active,
+a.expDateUpdateLink:link , a.expDateUpdateLink:visited, a.expDateUpdateLink:hover, a.expDateUpdateLink:active,
+a.deleteCardLink:link , a.deleteCardLink:visited, a.deleteCardLink:hover, a.deleteCardLink:active{
+	color:#475793;
+	text-decoration:none;
+	font-size:13px;
+	font-weight:bold;
+	float:right;
+}
+a.blueButton:link, a.blueButton:visited, a.blueButton:hover, a.blueButton:active{
+	color:#314367;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:15px;
+}
+a.grayButton:link, a.grayButton:visited, a.grayButton:hover, a.grayButton:active{
+	color:#666666;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:15px;
+}
+div.bubble
+{
+	width: auto;
+	min-width:100px;
+	max-width:260px;
+	/*height:auto;*/
+	background: #940000;
+	padding: 10px;
+	position: absolute;
+	z-index:999;
+	*z-index:1000;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	color:white;
+	font-weight:bold;
+	display:block;
+	font-size: 13px;
+	line-height: 16px;
+	text-align: center;
+	bottom:200px;
+	*bottom:65px;
+	*left:0px;
+	left:100px;
+	display:none;
+}
+div#changeBillingInfo div.profileInfoContent table#changeBillingInfoData a.blueButton,
+div#changeBillingInfo div.profileInfoContent table.billingCardData a.blueButton,
+div#freeSpiritChangeInfo table#changeProfileContactInfo tr td a.blueButton,
+div#freeSpiritChangeInfo table#changeProfileContactEmail tr td a.blueButton,
+div#changeBillingInfo table#addNewCardData tr td a.blueButton{
+	height:31px;
+	width:auto;
+	border:solid 1px #929abf;
+	-moz-box-shadow: 2px 2px 5px grey;
+	-webkit-box-shadow: 2px 2px 5px grey;
+    box-shadow: 2px 2px 5px grey;
+	-moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	line-height:31px;
+	padding:7px 20px;
+	background-image:url("../images/blue_Bg.jpg");
+    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#d7e7fe,endColorStr=#a9c7eb);
+	background: -moz-linear-gradient(top, #d7e7fe, #a9c7eb)!important;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#d7e7fe), to(#a9c7eb));
+	text-align:center;
+	text-transform:none;
+	font-size:15px;
+	margin-right:40px;
+	font-family:Arial,Helvetica,sans-serif;
+}
+div.bubble span.arrow
+{
+	width: 0; 
+	height: 0;
+	line-height: 0;
+	border-top: 15px solid #940000;
+	border-left: 15px solid rgba(239, 239, 239, 0);
+	border-right: 15px solid rgba(239, 239, 239, 0);
+	border-left: 15px solid #EFEFF0;
+	border-right: 15px solid #EFEFF0;
+	position: absolute;
+	bottom: -15px;
+	left: 30px;
+}
+
+div#freeSpiritProfileLanding div.smallBox fieldset
+{
+	width:458px;
+	float:left;
+}
+div#freeSpiritProfileLanding div.smallBox fieldset a.grayButton,
+div#changeBillingInfo div.profileInfoContent table#changeBillingInfoData a.grayButton,
+div#changeBillingInfo div.profileInfoContent table.billingCardData a.grayButton,
+div#freeSpiritChangeInfo table#changeProfileContactInfo tr td a.grayButton,
+div#freeSpiritChangeInfo table#changeProfileContactEmail tr td a.grayButton,
+div#changeBillingInfo table#addNewCardData tr td a.grayButton{
+	height:31px;
+	width:auto;
+	border:solid 1px #999999;
+	-moz-box-shadow: 2px 2px 5px grey;
+	-webkit-box-shadow: 2px 2px 5px grey;
+    box-shadow: 2px 2px 5px grey;
+	-moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	line-height:31px;
+	padding:7px 20px;
+	background-image:url("../images/grey_Bg.jpg");
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#f0f0f0,endColorStr=#c3c3c3);
+	background: -moz-linear-gradient(top, #f0f0f0, #c3c3c3)!important;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#f0f0f0), to(#c3c3c3));
+	text-align:center;
+	text-transform:none;
+	font-family:Arial,Helvetica,sans-serif;
+}
+div#changeBillingInfo div.profileInfoContent table.billingCardData tr.updateButtonss,
+div#changeBillingInfo div.profileInfoContent table.billingCardData tr.deleteCardConfirm,
+div#changeBillingInfo div.profileInfoContent table.billingCardData tr.billingRadioSelections
+{
+    display:none;    
+}
+div#changeBillingInfo div.profileInfoContent table.billingCardData tr td div.cardExpDate img#loadingGif
+{
+    display:none; 
+    float:right;   
+    margin-right:170px;
+}
+div#changeBillingInfo div.profileInfoContent table#changeBillingInfoData tr.editBillingAddress
+{
+    display:none;
+}
+div#changeBillingInfo div.profileInfoContent table#changeBillingInfoData tr.editBillingAddress td,
+table.billingCardData tr td,
+table#addNewCardData
+{
+    padding:4px 8px 4px 8px!important;
+    line-height:35px;    
+    max-height:35px;
+    white-space:nowrap;
+}
+div#changeBillingInfo div.profileInfoContent
+{
+    width:463px;
+    height:auto;
+    float:left;
+    color:#333333;
+    font-size:14px;
+    /* position:relative; */
+    padding-bottom:50px;
+}
+div#changeBillingInfo div.profileInfoContent h2
+{
+    font-size:22px;
+    text-transform:none;
+    font-weight:normal; 
+    margin-bottom:20px;   
+}
+div#changeBillingInfo div.profileInfoContent h3
+{
+    font-size:16px;
+    text-transform:none;
+    font-weight:normal;
+    color:#333333;    
+    border-bottom:solid 1px #d6d6d6;
+    margin-bottom:10px;
+}
+div#changeBillingInfo div.profileInfoContent div.grayGeneralBox
+{
+    background-color:#EFEFF0;
+    border:solid 1px #e4e4e4; 
+    width:670px;
+    height:auto;
+    padding:15px;
+    float:left;   
+    margin-bottom:60px;
+}
+div#changeBillingInfo div.profileInfoContent table,
+div#freeSpiritChangeInfo div.regularBox table
+{
+    table-layout:fixed;
+    width:100%;
+    background-color:#EFEFF0;
+    border:solid 1px #e4e4e4;
+    margin-bottom:30px;
+}
+div#changeBillingInfo div.profileInfoContent table tr td
+{
+    height:auto;
+    padding:8px 7px 8px 8px;
+    text-align:left;
+    vertical-align:top;
+}
+div#changeBillingInfo div.profileInfoContent table tr td em { margin-left:10px; font-size:12px; }
+div#changeBillingInfo div.profileInfoContent table tr td em img { margin-left:4px; cursor:pointer; vertical-align:text-top; }
+div#changeBillingInfo div.profileInfoContent table#addNewCardData tr td
+{
+    padding:8px 0px 8px 0px;
+    *padding:8px 7px 8px 8px;
+    text-align:left;
+    vertical-align:top;
+    *white-space:nowrap;
+}
+div#freeSpiritChangeInfo div.regularBox table tr td
+{
+	/* position:relative; */
+}
+div#freeSpiritChangeInfo div.regularBox table tr td
+{
+    max-height:35px;
+    line-height:35px;
+    padding:8px 7px 8px 8px;
+    text-align:left;
+    vertical-align:top;
+}
+div#changeBillingInfo div.profileInfoContent table tr.editBillingAddress td input.textFieldSmaller,
+div#changeBillingInfo div.profileInfoContent table tr.editBillingAddress td input.textFieldRegular,
+div#freeSpiritChangeInfo div.regularBox table#changeProfileContactInfo tr td input.textFieldSmaller,
+div#freeSpiritChangeInfo div.regularBox table#changeProfileContactInfo tr td input.textFieldRegular,
+div#freeSpiritChangeInfo div.regularBox table#changeProfileContactEmail tr td input.textFieldSmaller,
+div#freeSpiritChangeInfo div.regularBox table#changeProfileContactEmail tr td input.textFieldRegular,
+div#changeBillingInfo div.profileInfoContent table#addNewCardData tr td input.textFieldRegular,
+div#changeBillingInfo div.profileInfoContent table#addNewCardData tr td input.textFieldSmaller,
+tbody#floatingAddressFields tr td input.textFieldRegular,
+tbody#floatingAddressFields tr td input.textFieldSmaller
+{
+	height:33px;
+	line-height:33px;
+	font-size:18px;
+	border:1px solid #D6D6D6;
+	color:#333333;
+	padding:0px 10px;
+	-moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	background-color:#FFFFFF;
+}
+div#changeBillingInfo div.profileInfoContent table tr.editBillingAddress td input.textFieldRegular,
+div#freeSpiritChangeInfo div.regularBox table#changeProfileContactInfo tr td input.textFieldRegular,
+div#freeSpiritChangeInfo div.regularBox table#changeProfileContactEmail tr td input.textFieldRegular,
+div#changeBillingInfo div.profileInfoContent table#addNewCardData tr td input.textFieldRegular,
+tbody#floatingAddressFields tr td input.textFieldRegular{
+	width:270px;
+	*width:260px;
+}
+div#changeBillingInfo div.profileInfoContent table tr.editBillingAddress td input.textFieldSmaller,
+div#freeSpiritChangeInfo div.regularBox table#changeProfileContactInfo tr td input.textFieldSmaller,
+div#changeBillingInfo div.profileInfoContent table#addNewCardData tr td input.textFieldSmaller,
+tbody#floatingAddressFields tr td input.textFieldSmaller{
+	width:78px;
+}
+span.selectPrompt{
+	padding-left:10px;
+	font-size:18px;
+	background-color:transparent;
+	overflow:hidden;
+	width:auto;
+	white-space:nowrap;
+	display:block;
+}
+div#freeSpiritChangeInfo div.regularBox table#changeProfileContactInfo tr td.divider,
+div#changeBillingInfo div.profileInfoContent table#addNewCardData tr td.divider
+{
+	height:1px;
+	padding:0px 10px;
+}
+div#freeSpiritChangeInfo div.regularBox table#changeProfileContactInfo tr td.divider span,
+div#changeBillingInfo div.profileInfoContent table#addNewCardData tr td.divider span,
+div#changeBillingInfo div.profileInfoContent table#addNewCardData tr td.divider div
+{
+	border-bottom:solid 1px #e1e1e1;
+	padding:0px 10px;
+	width:95%;	
+	height:1px;
+}
+table#addNewCardData tbody.newAddressInfoFields
+{
+	display:none;	
+}
+.warning_msg {
+    border:2px solid #970000; -moz-border-radius:4px; -webkit-border-radius:4px; 
+    min-height:24px;
+    padding:20px 20px 20px 80px;
+    background:#FFFFFF url("../images/InfoBubble.gif") no-repeat 20px center;
+    white-space:normal;
+    line-height:18px!important;
+}
+tbody#floatingAddressFields div.makePrimaryMask{
+	width:15px;
+	height:16px;
+	border:solid 1px #999999;
+	-moz-border-radius: 3px;  
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+	background-color:#FFFFFF;
+	margin:10px 10px 0px 0px;
+	position:relative;
+	z-index:2;
+	float:left;
+}
+tbody#floatingAddressFields input[type='checkbox']
+{
+display:none;	
+}
+tbody#addNewCardAddress tr td span
+{
+float:left;
+padding-right:15px;
+}
+#cancelReasonsWrapper div.dropDownContainer { margin-bottom:10px; overflow: hidden; }
+
+div#freeSpiritChangeInfo table tr td.wrap_lines { white-space:normal !important; }
+
+div#freeSpiritProfileLanding div.smallBox div#cancelReasonsWrapper
+{
+    display:none;    
+}
+#error_msg_bubble {
+    min-width: 100px; max-width:316px; padding:10px; 
+    position:absolute;
+    left:100px; top:540px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:0px;
+    color:#fff; font-weight:bold; font-size:13px; line-height:16px; font-family:Arial,Helvetica,Verdana,sans-serif;
+    z-index:10000;
+}
+#error_msg_bubble span.arrow {
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #dc0000;
+    bottom: -15px;
+    height: 0;
+    left: 30px;
+    line-height: 0;
+    position: absolute;
+    width: 0;
+}
+
+.modalWindow { width:600px; }
+.modalContent p,
+.modalContent dl { margin-bottom:20px; }
+.modalContent dt {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+div#error-wrapper
+{
+	display:none;
+}
+
+
+.field_chkbx { display:inline-block; min-width:21px; min-height:21px; cursor:pointer; background:transparent url("../images/xt_checkbox.gif") no-repeat left top; }
+.field_chkbx.active { background-position:left bottom; }
+.field_chkbx input { display:none; }
+
+.field_select  {
+    display:inline-block; 
+    background:#fff url("../images/down_arrow.png") no-repeat 270px center; 
+    border:1px solid #D6D6D6;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    cursor:pointer;
+    width:290px;
+    min-height:33px;
+    float:none;
+}
+.field_select select { display:none; }
+.field_select .selected_index  {
+    display:inline-block; 
+    font-size:18px; 
+    padding:4px 4px 4px 10px;
+    white-space:nowrap; overflow:hidden; 
+    width:86%;
+    float:none;
+    line-height:25px;
+}
+
+html .field_select.state .selected_index,
+html .field_select.country .selected_index  { *padding:4px 12% 4px 3%; }
+
+.field_select .select_options {
+     display:none; position:absolute;
+     background-color:#fff; 
+     width:290px; 
+     max-height:200px;
+     overflow:auto;
+     border:1px solid #d6d6d6; border-top:none; 
+     margin-left:-1px;
+    -moz-border-radius:0 0 5px 5px;
+    -webkit-border-radius:0 0 5px 5px;
+    border-radius:0 0 5px 5px;
+}
+.field_select .select_options li {
+    font-size:14px;
+    line-height:20px;
+    padding-left:10px;
+    width:auto;
+    white-space:normal;
+}
+.field_select .select_options li:hover {
+    background-color:#d6d6d6;
+}
+.field_select.active {
+    -moz-box-shadow: 5px 5px 5px #666666;
+	-webkit-box-shadow: 5px 5px 5px #666666;
+	box-shadow: 5px 5px 5px #666666;
+	border-color:#537DBF;
+}
+.field_select.active .select_options {
+    display:block; 
+    -moz-box-shadow: 5px 5px 5px #666666;
+	-webkit-box-shadow: 5px 5px 5px #666666;
+	box-shadow: 5px 5px 5px #666666;
+	border-color:#537DBF;
+}
+.field_select.dob_day,
+.field_select.dob_month { width:85px; margin-right:10px; background-position:65px center;  }
+.field_select.dob_day .select_options,
+.field_select.dob_month .select_options { width:85px; }
+.field_select.dob_year,
+.field_select.dob_year .select_options { width:90px; background-position:70px center; }
+.field_select.frmTitle,
+.field_select.frmTitle .select_options { width:70px; background-position:50px center; }
+.field_select.cancel,
+.field_select.cancel .select_options { width:405px; background-position:385px center; }
+
+input:focus, .focus { border-color:#537DBF !important; }
+.field_select.validationError,
+input.validationError { background-color:#ffdedd !important; color:#FF0101 !important; }

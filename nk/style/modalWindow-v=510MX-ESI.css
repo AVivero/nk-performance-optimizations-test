@@ -1,0 +1,476 @@
+#mask{
+		position:absolute; /* important */
+		top:0px; /* start from top */
+		left:0px; /* start from left */
+		height:100%; /* cover the whole page */
+		width:100%;  /* cover the whole page */
+		display:none; /* don't show it '*/          
+		background-color: black;
+		z-index:3000;
+		opacity:0;
+}
+#mask_TaxesFees{
+		position:absolute; /* important */
+		top:0px; /* start from top */
+		left:0px; /* start from left */
+		height:100%; /* cover the whole page */
+		width:100%;  /* cover the whole page */
+		display:none; /* don't show it '*/          
+		background-color: black;
+		z-index:101;
+		opacity:0;
+}
+
+#mask_DebitCard{
+		position:absolute; /* important */
+		top:0px; /* start from top */
+		left:0px; /* start from left */
+		height:100%; /* cover the whole page */
+		width:100%;  /* cover the whole page */
+		display:none; /* don't show it '*/          
+		background-color: black;
+		z-index:10001;
+		opacity:0;
+}
+
+#mask_MemberWelcome{
+		position:absolute; /* important */
+		top:0px; /* start from top */
+		left:0px; /* start from left */
+		height:100%; /* cover the whole page */
+		width:100%;  /* cover the whole page */
+		display:none; /* don't show it '*/          
+		background-color: black;
+		z-index:101;
+		opacity:0;
+}
+
+.modalWindow{
+		width:400px;
+		height:auto;
+		background-color:#FFFFFF;
+		padding:2px;
+		display:none;
+		position:absolute;
+		z-index:3001;
+}
+
+
+.modalWindowPopup{
+		width:400px;
+		height:auto;
+		background-color:#FFFFFF;
+		padding:2px;
+		display:none;
+		position:absolute;
+		z-index:1;
+}
+
+
+.modalWindow_TaxesFees{
+		width:900px;
+		height:auto;
+		background-color:#FFFFFF;
+		padding:2px;
+		display:none;
+		position:absolute;
+		z-index:102;
+}
+
+.modalContent{
+		border:solid 3px #405691;
+		padding:10px;
+		width:auto;
+		height:auto;
+		position:relative;
+		z-index:1003;
+		font-family:Helvetica,Arial,Verdana,sans-serif;
+		font-size:12px;
+}
+
+.modalContent_TaxesFees{
+		border:solid 3px #405691;
+		padding:10px;
+		width:auto;
+		height:auto;
+		position:relative;
+		z-index:3;
+		font-family:Helvetica,Arial,Verdana,sans-serif;
+		font-size:1em;
+}
+
+/*Style for the Debit Card Modal Window*/
+.modalWindow_DebitCard{
+		width:375px;
+		height:auto;
+		background-color:#FFFFFF;
+		padding:2px;
+		display:none;
+		position:absolute;
+		z-index:10002;
+}
+
+.modalContent_DebitCard{
+		border:solid 3px #405691;
+		padding:10px;
+		width:auto;
+		height:auto;
+		position:relative;
+		z-index:3;
+		font-family:Helvetica,Arial,Verdana,sans-serif;
+		font-size:12px;
+}
+
+.modalContent_DebitCard h1{
+		font-weight:bold; 
+		text-transform:capitalize; 
+		font-size:16px
+}
+
+.modalContent_DebitCard span{
+		color:#636363;
+}
+/*End Style for the Debit Card Modal Window*/
+
+/*Start Style for the Member Welcome Modal Window*/
+.modalWindow_MemberWelcome{
+		width:530px;
+		height:auto;
+		/*background-color:#FFFFFF;*/
+		background-color:#ECECEC;
+		padding:2px;
+		display:none;
+		position:absolute;
+		z-index:102;
+}
+
+.modalContent_MemberWelcome{
+		border:solid 5px #405691;
+		padding:20px;
+		width:480px;
+		height:auto;
+		position:relative;
+		z-index:3;
+		font-family:Helvetica,Arial,Verdana,sans-serif;
+		font-size:14px;
+		float:left;
+}
+
+.modalContent_MemberWelcome div.disclaimer
+{
+    font-size:17px;
+    padding: 10px 0 20px 0;
+    float:left;
+}
+
+.modalContent_MemberWelcome div.buttonSection
+{
+    text-align:center;
+    padding:0 25px 0 25px;
+}
+
+.modalContent_MemberWelcome div.left
+{
+    width:45%;
+    float:left;
+}
+
+.modalContent_MemberWelcome div.right
+{
+    width:45%;
+    float:right;
+}
+
+.modalContent_MemberWelcome a.greenText:link, a.greenText:visited, a.greenText:hover, a.greenText:active
+{
+	color:#FFFFFF!important;
+	text-decoration:none!important;
+	font-size:16px;
+}
+.modalContent_MemberWelcome a.greyText:link, a.greyText:visited, a.greyText:hover, a.greyText:active
+{
+	color:#666666!important;
+	text-decoration:none!important;
+	font-size:16px;
+}
+.modalContent_MemberWelcome .grayGradient { line-height:25px; }
+.modalContent_MemberWelcome .greenGradient { line-height:25px; }
+
+/*End Style for the Member Welcome Modal Window*/
+
+.closeModal{
+		position:relative;
+		z-index:2000;
+		top:-8px;
+		right:-8px;
+		float:right;
+		cursor:pointer;
+		width:25px;
+		height:25px;
+}
+div.offer{
+	border-bottom:solid 1px #ccc;
+	width:100%;
+	margin-bottom:30px;
+	float:left;
+	padding-bottom:10px;
+}
+div.title
+{
+	margin-bottom:20px;	
+}
+div.offer
+{
+	margin-bottom:0px\9;
+}
+div.title
+{
+	width:auto\9;
+}
+div.notice{
+	width:100%;
+	margin-bottom:10px;
+}
+input.button{
+	margin:5px 0px;
+	-moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	height:24px;
+	line-height:24px;
+	width:100%;
+	font-weight:bold;
+	-moz-box-shadow: 2px 2px 5px grey;
+	-webkit-box-shadow: 2px 2px 5px grey;
+    box-shadow: 2px 2px 5px grey;
+    font-size:14px;
+}
+input.green{
+	background: -moz-linear-gradient(top, #b6c95c, #96b749);
+	border:solid 1px #99ac3b;
+	color:#FFF;
+}
+input.grey{
+	background: -moz-linear-gradient(top, #f0f0f0, #c3c3c3);
+	border:solid 1px #b8b8b8;
+	color:#666;
+}
+table#loginTable td#username input, table#loginTable td#password input{
+	-moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	height:22px;
+	line-height:22px;
+	border:solid 1px #b8b8b8;
+}
+input#submit{
+	-moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	height:26px;
+	line-height:26px;
+	border:solid 1px #99ac3b;
+}
+
+label{
+	font-weight:bold;
+	_float:left\9;
+}
+table#loginTable{
+	width:270px;
+}
+
+/***********************************************************************************/
+.greenGradient{
+	margin:5px 0px;
+	-moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	height:24px;
+	line-height:24px;
+	*line-height:35px;
+	font-weight:bold;
+	-moz-box-shadow: 2px 2px 5px grey;
+	-webkit-box-shadow: 2px 2px 5px grey;
+    box-shadow: 2px 2px 5px grey;
+    font-size:14px;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:auto;
+    padding-right:auto;
+    background-image:url("../images/green_Bg.jpg");
+    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#afc557,endColorStr=#98b749);
+	background: -moz-linear-gradient(top, #afc557, #98b749);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#afc557), to(#98b749));
+	border:solid 1px #738321;
+	text-align:center;
+}
+
+.grayGradient{
+	margin:5px 0px;
+	-moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	height:24px;
+	line-height:24px;
+	*line-height:35px;
+	font-weight:bold;
+	-moz-box-shadow: 2px 2px 5px grey;
+	-webkit-box-shadow: 2px 2px 5px grey;
+    box-shadow: 2px 2px 5px grey;
+    font-size:14px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:auto;
+    padding-right:auto;
+    background-image:url("../images/grey_Bg.jpg");
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#f0f0f0,endColorStr=#c3c3c3);
+	background: -moz-linear-gradient(top, #f0f0f0, #c3c3c3)!important;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#f0f0f0), to(#c3c3c3));
+	border:solid 1px #b8b8b8;
+	text-align:center;
+}
+.greenNext{
+	margin:5px 0px;
+	-moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	height:30px!important;
+	line-height:30px!important;
+	*line-height:35px!important;
+	font-weight:bold;
+	-moz-box-shadow: 2px 2px 5px grey;
+	-webkit-box-shadow: 2px 2px 5px grey;
+    box-shadow: 2px 2px 5px grey;
+    font-size:14px;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:auto;
+    padding-right:auto;
+    background-color:#b6c95c;
+    background-image:url("../images/green_Bg.jpg");
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#b6c95c,endColorStr=#96b749);
+	background:#a1b83a;
+	background: -moz-linear-gradient(top, #b6c95c, #96b749)!important;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#b6c95c), to(#96b749));
+	border:solid 1px #738321;
+	text-align:center;
+}
+.grayPrevious{
+	margin:5px 15px 0px 5px;
+	-moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	height:30px!important;
+	line-height:30px;
+	*line-height:30px;
+	font-weight:bold;
+	-moz-box-shadow: 2px 2px 5px grey;
+	-webkit-box-shadow: 2px 2px 5px grey;
+    box-shadow: 2px 2px 5px grey;
+    font-size:14px;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:auto;
+    padding-right:auto;
+    background-image:url("../images/grey_Bg.jpg");
+    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#f0f0f0,endColorStr=#c3c3c3);
+    background: #d1d1d1;
+	background: -moz-linear-gradient(top, #f0f0f0, #c3c3c3)!important;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#f0f0f0), to(#c3c3c3));
+	background-color:#c3c3c3;
+	border:solid 1px #b8b8b8;
+	text-align:center;
+	-o-background-size: 100% 100%; -webkit-background-size: 100% 100%; -khtml-background-size: 100% 100%; background-size: 100% 100%;
+ 
+}
+a.grayPrevious:link, a.grayPrevious:visited, a.grayPrevious:hover, a.grayPrevious:active
+{
+    color:#666666!important;
+    text-decoration:none;	
+    font-size:16px;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+a.greenNext:link, a.greenNext:visited, a.greenNext:hover, a.greenNext:active
+{
+    color:#FFFFFF!important;
+    text-decoration:none;	
+    font-size:16px;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+a.greenGradient:link, a.greenGradient:visited, a.greenGradient:hover, a.greenGradient:active
+{
+color:#FFFFFF!important;
+text-decoration:none;	
+font-size:22px;
+text-transform:uppercase;
+padding-left:15px;
+padding-right:15px;
+}
+
+a.green:link, a.green:visited, a.green:hover, a.green:active
+{
+	color:#FFFFFF!important;
+	text-decoration:none!important;
+	padding:0 10px;
+}
+a.grey:link, a.grey:visited, a.grey:hover, a.grey:active
+{
+	color:#666666!important;
+	text-decoration:none!important;
+	text-transform:uppercase;
+}
+#submit{
+	margin:5px 0px;
+	-moz-border-radius: 5px;  
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	height:24px;
+	line-height:24px;
+	font-weight:bold;
+	-moz-box-shadow: 2px 2px 5px grey;
+	-webkit-box-shadow: 2px 2px 5px grey;
+    box-shadow: 2px 2px 5px grey;
+    font-size:14px;
+    padding:2px;
+    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#b6c95c,endColorStr=#96b749);
+	background: -moz-linear-gradient(top, #b6c95c, #96b749);
+	background-image:url("../images/green_Bg.jpg");
+	border:solid 1px #99ac3b;
+}
+span.savingsAmount
+{
+	float:left;
+}
+strong.savingsAmountBold
+{
+	float:none;
+	font-weight:bold;
+}
+div.standardFare label, div.memberFare label
+{
+margin:0px!important;	
+}
+td.fare
+{
+	vertical-align:middle;
+}
+div.notice div#warning
+{
+font-weight:bold;
+color:Red;	
+font-size:12px;
+}
+div.notice div#disclaimer
+{
+font-size:12px;	
+}
+.modalContent sup{
+	text-transform:uppercase;
+	font-size: 14px;
+	position:relative;
+	padding-left:3px;
+	top:0px;
+}

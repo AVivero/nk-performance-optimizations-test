@@ -1,0 +1,579 @@
+@media (max-width: 768px) {
+    #TAsearchContainer {
+        float: none !important;
+    }
+}
+
+@media (max-width: 460px){
+    section#travel_agent_login {
+        float: none !important;
+    }
+}
+
+#travel_agent_sidebar ul{
+    list-style-type:none;
+    padding:0px;
+}
+
+#travel_agent_sidebar ul li{
+    font-size:14px;
+}
+
+    #travel_agent_sidebar ul li.heading {
+        font-size: 16px;
+        font-weight:bold;
+    }
+
+#travel_agent_sidebar {
+    border-right: solid 1px #efefef;
+}
+
+.booking_selections {
+    max-width:500px;
+    padding-left:20px;
+}
+
+#booking_selections.radio label {
+    width: 140px;
+}
+
+#Booking_Widget_section {
+    max-width:900px;
+}
+
+    #Booking_Widget_section ul {
+        padding: 15px;
+        list-style-type: none;
+    }
+
+/*#bookingType{
+    max-width:250px;
+}*/
+
+
+
+#TAsearchContainer {
+    background-color: #fff;
+    border: solid 1px #ccc;
+    border-radius: 6px;
+    float: right;
+    margin: 0px 0px 20px 20px;
+    max-width: 470px;
+}
+
+
+.smallSearchContainer {
+    max-width: 470px;
+}
+
+.largeSearchContainer {
+    max-width: 900px !important;
+}
+
+    #TAsearchContainer ul.searchElems li label {
+        padding-top:20px;
+    }
+    
+    #searchButton {
+        text-align: center;
+    }
+
+#TAsearchContainer div#multiCity {
+    clear: both;
+    width: 100%;
+}
+
+
+/*#multiCity .multiCityFlightOnlyType.last {
+    padding: 0px !important;
+    margin: 0px !important;
+    position: relative;
+    top: 1px;
+}
+
+    #multiCity .multiCityFlightOnlyType.last label {
+        width: 17px;
+        background: none repeat scroll 0 0 #0075CF;
+        border: 1px solid #016C98;
+        color: #FFFFFF;
+        font-size: 28px !important;
+        font-weight: 700;
+        padding: 3px 8px 0;
+        margin: 0px 0px 0px 0px !important;
+        position: relative;
+        top: 6px;
+    }
+
+.ie8 #multiCity .multiCityFlightOnlyType.last label {
+    width: 17px;
+    background: none repeat scroll 0 0 #0075CF;
+    color: #FFFFFF;
+    font-size: 28px !important;
+    font-weight: 700;
+    padding: 3px 8px 0;
+    margin: 0px 0px 0px 0px !important
+}*/
+
+.lastMulti {
+    width: 30px;
+    height: 30px;
+    background-color: #0075CF;
+    text-align:center;
+    margin-top:30px;
+}
+
+	.lastMulti label {
+		color: #FFFFFF;
+		font-size: 28px !important;
+		font-weight: 700;
+		padding: 3px;
+	}
+
+.btnAddCity {
+    float:left;
+    width: 40px;
+    height: 40px;
+    background-color: #0075CF;
+    text-align: center;
+    margin-top: 5px;
+    padding:7px 0px;
+}
+
+    .btnAddCity a {
+        color: #FFFFFF;
+        font-size: 30px !important;
+        font-weight: 700;
+    }
+
+.form-control[readonly] {
+    background-color: #fff;
+}
+
+/*last TAcss styles*/
+section#travel_agent_login {
+    width: 288px;
+    padding: 10px 19px;
+    background: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 6px;
+    float: right;
+}
+    section#travel_agent_login input[type='text'] {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+    section#travel_agent_login input[type='password'] {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+    section#travel_agent_login .button {
+        padding: 5px 20px;
+        font-size: 18px;
+        line-height: normal;
+    }
+    section#travel_agent_login p.action {
+        margin-top: 10px;
+        text-align: center;
+    }
+        section#travel_agent_login p.action a.forgetpassword {
+            font-size: 12px;
+            display: block;
+            margin-top: 10px;
+        }
+body.es-PR section#travel_agent_login p.action a.forgetpassword {
+    margin-right: 0px;
+}
+
+/*finish the last styles*/
+
+
+#birthDatesArea .month {
+    width: 150px;
+    margin-right: 15px;
+    float: left;
+}
+
+#birthDatesArea .day {
+    width: 80px;
+    margin-right: 15px; 
+    float:left;
+}
+
+#birthDatesArea .year {
+    width: 100px;
+    margin-right: 15px;
+    float: left;
+}
+
+#birthDatesArea .childLabel{
+    clear:both;
+    display:block;
+}
+
+#birthDatesArea li{
+    margin-bottom:20px;
+}
+
+label.formFieldName {
+    display:block;
+    margin-top:15px;
+}
+
+#registrationContainer input.textField {
+    width: 100%;
+}
+
+/*#agentRegistrationContainer input.textField {
+    width: 100%;
+}*/
+ 
+#TAPortalAgencyRegstrationGroup_TAPortalAgencyRegstrationInput_TextBoxPostalCode{
+    width:120px !important;
+}
+
+.col-xs-offset-right-6 {
+    margin-right: 50%;
+}
+
+#orLabelReservationsFilter{
+   margin:15px;
+}
+
+#travelAgentReservation ul li {
+    display: inline-block;
+    float: left;
+    height: auto;
+    padding: 10px 0;
+    width: 150px;
+    text-align: center;
+    background-color: #0073E6;
+    margin: 0 1px 0px 0;
+}
+    #travelAgentReservation ul li a {
+        color: #fff;
+        font-size: 20px;
+        line-height: 1;
+        padding: 0 10px;
+        font-weight: normal;
+    }
+	#travelAgentReservation ul li.active {
+		background-color: #0073E6;
+	}
+    #travelAgentReservation ul li.Displaylist {
+        float: right;
+        background: none;
+    }
+        #travelAgentReservation ul li.Displaylist select {
+            float: right;
+            font-size: 14px !important;
+            padding: 0px;
+        }
+    #travelAgentReservation ul li.deactive {
+        background-color: #E2E2E2;
+    }
+#travelAgentReservation table {
+    width: 100%;
+    font-family: 'Source Sans Pro',Helvetica,Sans-Serif;
+}
+
+    #travelAgentReservation table th {
+        background: #333333;
+        font-family: 'Source Sans Pro',Helvetica,Sans-Serif;
+        font-size: 14px;
+        height: 50px;
+        padding-left: 20px;
+    }
+
+        #travelAgentReservation table th a, #travelAgentReservation table th span {
+            color: #ffffff;
+            border-bottom: 1px dotted #ffffff;
+            position: relative;
+        }
+
+    #travelAgentReservation table td {
+        height: 50px;
+        padding-left: 20px;
+        font-size: 13px;
+        border-top: 2px solid #ffffff;
+    }
+
+    #travelAgentReservation table th a span.arrowdown {
+        background: rgba(0, 0, 0, 0) url("../images/spiritway/sprite.png.html") no-repeat scroll -411px -94px;
+        border-bottom: 1px solid #333333;
+        display: inline-block;
+        height: 10px;
+        margin-left: 4px;
+        margin-top: 0;
+        position: absolute;
+        top: 7px;
+        width: 14px;
+    }
+
+
+    #travelAgentReservation table th a span.arrowup {
+        background: rgba(0, 0, 0, 0) url("../images/spiritway/sprite.png.html") no-repeat scroll -387px -94px;
+        border-bottom: 1px solid #333333;
+        display: inline-block;
+        height: 10px;
+        margin-left: 4px;
+        margin-top: 0;
+        position: absolute;
+        top: 7px;
+        width: 14px;
+    }
+
+#travelAgentReservation div.travelagentReservationllist {
+    display: block;
+    clear: both;
+    margin-bottom: 70px;
+}
+
+    #travelAgentReservation div.travelagentReservationllist .pagination {
+        display: block;
+        background: #333333;
+        padding: 20px 20px 15px;
+        line-height: 1;
+        text-align: center;
+    }
+
+        #travelAgentReservation div.travelagentReservationllist .pagination div:first-child {
+            display: inline-block;
+            float: left;
+            color: #fff;
+            margin: 0 auto;
+        }
+
+        #travelAgentReservation div.travelagentReservationllist .pagination div a {
+            color: #ffffff;
+            display: inline-block;
+            float: left;
+            font-size: 18px;
+            height: 24px;
+            line-height: 20px;
+            margin: 0 auto 0 10px;
+            width: 24px;
+        }
+
+        #travelAgentReservation div.travelagentReservationllist .pagination div.paging {
+            display: inline-block;
+            top: -2px
+        }
+
+        #travelAgentReservation div.travelagentReservationllist .pagination div a.active {
+            background: url("../images/spiritway/paginationHover.png.html") no-repeat;
+        }
+
+    #travelAgentReservation div.travelagentReservationllist p.noReservation {
+        clear: both;
+        color: #ff0000;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: -2px;
+    }
+
+.dateSearchButton {
+    width: 45px;
+    height: 45px;
+    background: #0073E6;
+}
+
+.datesearch{
+    padding:20%;
+}
+
+.recordsListHeaderRounded {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #CCC;
+    font-weight: 900;
+}
+
+#AgentHeader div{
+    height: 35px;
+    margin-top: 10px;
+}
+
+#AgentRecords div ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+div .agentRecord {
+    margin-top: 7px;
+}
+
+.hiddenElement {
+    display: none;
+}
+
+.recordsListHeader {
+    border: 1px solid #ccc;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color: #CCC;
+    font-weight: 700;
+}
+
+.Disable_Delete {
+    height: 17px;
+    display: block;
+    cursor: pointer;
+    background: url('../../../../images/taadmin-delet-icon.png') no-repeat center top;
+}
+
+.Delete_icon {
+    height: 17px;
+    display: block;
+    background: url('../../../../images/taadmin-delet-icon.png') no-repeat center -18px;
+    cursor: pointer;
+}
+
+.deleteAgentLink{
+    padding:15px 0;
+}
+/************************ Bubble Popup CSS ************************/
+.cpointer {
+    cursor: pointer
+}
+
+div.bTipWrapper {
+    width: 250px;
+    position: absolute;
+    border: 1px solid #b0b0b0;
+    color: #000;
+    text-align: left;
+    font-weight: normal;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: #fff;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+    z-index: 1001;
+    overflow: visible;
+    padding: 18px;
+    font-size: 14px;
+    display: none;
+}
+
+div.bTipContent .h1 {
+    font-size: 14px !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: normal;
+}
+
+div.bTipContent p {
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+}
+
+div.bTipContent ul {
+    padding: 2px 0px 4px 0px;
+}
+
+div.bTipContent li {
+    padding-bottom: 4px;
+}
+
+div.popUpWrapperTail {
+    width: 42px;
+    height: 20px;
+    overflow: hidden;
+    background: url("../../../../images/dynamicPackaging/all_inclusive_tail.png");
+    position: absolute;
+    right: 25px;
+    bottom: -20px;
+}
+
+/*******************************************************************/
+
+
+.Requested_fund_tabs ul, .electronic_Check_Transfer ul, .electronic_fund_section ul, .check_section ul, .additional_instructions lu{
+    list-style-type: none;
+    padding: 0;
+}
+
+    .Requested_fund_tabs ul li, .electronic_Check_Transfer ul li, .electronic_fund_section ul li, .check_section ul li, .additional_instructions lu li {
+        padding-bottom:15px;
+    }
+
+/*Tabs form Request Found page*/
+#main-nav-tabs > li.active > a {
+	color: black;
+	border-width: 2px 2px 0px 2px;
+	border-color: #0073E6;
+}
+
+#main-nav-container {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*------------Terms and Condition section--------------*/
+section.electronic_Fund_termsCondition {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 0px;
+    clear: both;
+    display: block;
+}
+
+    section.electronic_Fund_termsCondition .h2 {
+        font-size: 12px;
+        font-weight: bold;
+        margin-bottom: 0px !important;
+        text-transform: uppercase;
+    }
+
+div.request_Type_Content .h2 {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0px !important;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.h2.termsCondition {
+    font-size: 14px !important;
+}
+
+div.e_termsCondition {
+    padding: 5px;
+    /*float: left;*/
+    clear: both;
+    display: block;
+    border: 1px solid #ccc;
+    background: #fff;
+    height: 100px;
+    overflow: auto;
+}
+
+section.electronic_Fund_termsCondition div.e_termsCondition p {
+    font-size: 14px !important;
+    line-height: 24px !important;
+    padding-left: 10px;
+}
+
+section.electronic_Fund_termsCondition div.e_termsCondition div.noycTramcondition h2 {
+    margin-bottom: 10px !important;
+    font-size: 20px !important;
+}
+
+section.electronic_Fund_termsCondition div.e_termsCondition div.noycTramcondition ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+/*------------ finish Terms and Condition section--------------*/
+
+/* Calendar control */
+
+@media (max-width: 767px) {
+	#ui-datepicker-div {
+		width: 64% !important;
+	}
+}

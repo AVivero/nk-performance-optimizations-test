@@ -1,0 +1,264 @@
+html {
+	height: 100%;
+}
+
+body {
+	position: relative;
+	margin: 0;
+	padding-bottom: 6rem;
+	min-height: 100%;
+}
+
+footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+ul, li {
+	list-style: none !important;
+}
+
+ul {
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.fieldWrap {
+	margin-top: 1rem;
+}
+
+.header_info {
+	margin-top: 1rem;
+}
+
+/* modal specific */
+#waitMessage {
+	z-index: 9999;
+}
+
+#childBirthDates fieldset {
+	background-color: #EFEFEF;
+	border-radius: 0px;
+	margin-top: 100px;
+}
+
+/* Datepicker */
+.date_picker {
+	width: 100%;
+	background: url("../../../../images/homepage/ic_event_black_24dp.png") no-repeat scroll 7px;
+	background-position: right;
+	background-color: #FFF !important;
+}
+
+/* Select2 styling */
+.select2-container--default .select2-selection--multiple {
+	border: 1px solid black;
+	min-height: 2.9rem;
+	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHdpZHRoPSIxNzkyIiBoZWlnaHQ9IjE3OTIiIHZpZXdCb3g9IjAgMCAxNzkyIDE3OTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTE2ODMgODA4bC03NDIgNzQxcS0xOSAxOS00NSAxOXQtNDUtMTlsLTc0Mi03NDFxLTE5LTE5LTE5LTQ1LjV0MTktNDUuNWwxNjYtMTY1cTE5LTE5IDQ1LTE5dDQ1IDE5bDUzMSA1MzEgNTMxLTUzMXExOS0xOSA0NS0xOXQ0NSAxOWwxNjYgMTY1cTE5IDE5IDE5IDQ1LjV0LTE5IDQ1LjV6Ii8+PC9zdmc+');
+	background-repeat: no-repeat;
+	background-position: 98% center;
+	background-size: 1.25rem 1.25rem;
+	padding-right: 1rem;
+}
+
+.select2-selection__choice {
+	background-color: #0073e6 !important;
+	color: white !important;
+	border: 1px solid black !important;
+}
+
+.select2-selection__choice__remove {
+	color: white !important;
+}
+
+.select2-container--default .select2-search--inline .select2-search__field {
+	padding-top: 0.5rem;
+}
+
+/* Tab Content */
+.featured_info {
+	margin-top: 1rem;
+}
+
+/* Book tab */
+ul.list-inline > li.radio > label,
+#flight-status-form div.flifoRadioSwitch > label {
+	font-weight: 900;
+	padding-left: 5px;
+	margin-left: 25px;
+}
+
+#multiCity ul li > label {
+	padding-left: 0px;
+	display: block;
+	margin-top: 1.5rem;
+}
+
+/* Manage Travel tab */
+
+/* Flight status tab */
+
+/* Check in tab */
+
+/* Employee login modal */
+#employee-login .details input {
+	display: none
+}
+
+#employee-login .details > div {
+	width: 50%;
+	float: left;
+}
+
+#employee-login .details label {
+	display: block;
+	margin: 0;
+	color: #0073e6;
+	text-transform: uppercase;
+	background: white;
+	padding: 10px 0 8px;
+	text-align: center;
+	border: 2px solid #0073e6;
+}
+
+#employee-login .details .active label {
+	background: #0073e6;
+	color: white;
+}
+
+.employee-login-content .forgot {
+	margin: -8px 0 0;
+	padding: 0 0 0 10px;
+	display: none;
+}
+
+#login_fail {
+	padding-top: 13px;
+	display: none;
+}
+
+/* navigation */
+@media (max-width: 768px) {
+	#main-nav-tabs > li:not(.active) > a {
+		background-color: #0073e6;
+		color: white;
+	}
+
+	#main-nav-tabs > li.active > a {
+		color: black;
+		border: 2px solid #0073e6;
+		font-weight: 900;
+	}
+}
+
+@media (min-width: 768px) {
+	#home_tabs {
+		margin-left: 45px;
+		margin-right: 45px;
+	}
+
+	#main-nav-tabs {
+		border-collapse: separate;
+		border-spacing: 10px 0px;
+	}
+
+	#main-nav-border-container {
+		border-top: 2px solid #0073E6;
+	}
+
+	#main-nav-tabs {
+		border-collapse: separate;
+		border-spacing: 10px 0px;
+	}
+
+		#main-nav-tabs > li > a:hover {
+			text-decoration: underline;
+		}
+
+		#main-nav-tabs > li.active > a {
+			color: black;
+			border-width: 2px 2px 0px 2px;
+			border-color: #0073e6;
+		}
+
+		#main-nav-tabs > li:not(.active) > a:before {
+			content: "";
+			position: absolute;
+			z-index: -1;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+			bottom: 0px;
+			border-top: 1px solid #CCCCCC;
+			border-right: 1px solid #CCCCCC;
+			border-left: 1px solid #CCCCCC;
+			border-bottom: 0px;
+			border-radius: 5px 5px 0px 0px;
+		}
+
+		#main-nav-tabs > li > a {
+			border-bottom: 0px;
+		}
+
+		#main-nav-tabs > li.active > a:hover {
+			background-color: white !important;
+		}
+
+		#main-nav-tabs > li:not(.active) > a:hover {
+			background-color: transparent !important;
+		}
+}
+
+@media (max-width: 767px) {
+
+	#ui-datepicker-div {
+		width: 94%;
+	}
+
+	.ui-datepicker-multi .ui-datepicker-group {
+		width: 100%;
+	}
+
+	.btn {
+		width: 100%;
+	}
+
+	#main-nav-border-container {
+		border-top: 0 !important;
+		margin-top: -3px !important;
+	}
+}
+
+@media (max-width: 376px) {
+	ul.nav-tabs.visible-xs {
+		font-size: 0.75rem;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	#main-nav-tabs > li > a {
+		margin-bottom: -3px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	#main-nav-tabs > li > a {
+		font-size: 0.94rem !important;
+	}
+}
+
+@media (min-width: 1024px) {
+	#main-nav-tabs > li > a {
+		margin-bottom: -2px;
+	}
+}
+
+#main-nav-tabs > li > a {
+	font-weight: 900;
+	font-size: 1.15rem;
+	font-family: 'Source Sans Pro', Helvetica, "Helvetica Neue", sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+}

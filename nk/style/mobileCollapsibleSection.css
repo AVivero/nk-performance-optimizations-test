@@ -1,0 +1,41 @@
+﻿.mobile-collapsible-toggler .fa-chevron-down {
+	display:none;
+}
+		
+.mobile-collapsible-toggler.collapsed .fa-chevron-down {
+	display:inline;
+}
+			
+.mobile-collapsible-toggler .fa-chevron-right {
+	display:inline;
+}
+		
+.mobile-collapsible-toggler.collapsed .fa-chevron-right {
+	display:none;
+}
+
+.mobile-collapsible-toggler {
+	padding-right:5px;
+}
+
+.mobile-collapsible-toggler-content,
+.mobile-collapsible-toggler-icon {
+	color:#0073E6;
+}
+
+.mobile-collapsible-toggler-icon {
+	display:inline-block; 
+	width:10px; 
+	margin-left:5px;
+}
+
+@media (min-width:768px) {
+	.mobile-collapsible-toggler {
+		display:none;
+	}
+
+	.mobile-collapse.collapse {
+		height:auto !important;
+		display:block;
+	}
+}

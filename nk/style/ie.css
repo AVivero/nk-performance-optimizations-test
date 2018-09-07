@@ -1,0 +1,336 @@
+/* IE 6 Only Hack */
+
+ul#top-nav li #login{
+ margin-top:0;
+ margin-left:0 !important;}
+
+.pricingsteps .steps{
+ margin: 30px -20px 0 0;}
+
+/* Support for the "iehover-fix.js"
+To display dropdown properly by hiding select box in IE 6 */
+ul#main-nav li ul{
+ filter:none;
+ -moz-opacity:none;
+ opacity:none;}
+ 
+ul#main-nav iframe {
+	position: absolute;
+	/* account for the border */
+	left: -0.25em;
+	top: -0.25em;
+	z-index: -1;
+	filter: progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0);
+}
+
+* html ul#main-nav li { z-index: 201; }
+
+ul#main-nav li.sp-main-nav a{
+ padding: 5px 6px 6px 9px;
+}
+
+ul#main-nav li.fareclub-sp a{
+ padding: 5px 8px 6px 10px;}
+ 
+ul.box-subnav {
+	position:relative;
+}
+
+.leftcontent img#bookatrip {
+	 width:172px;}
+	 
+.leftcontent .flight-search .passenger-count{
+ padding-top: 0px;	 /*override for IE 6 only*/ }
+ 
+.flight-search .pHeight
+{
+	height:auto;
+}	 
+
+/* this is for IE 5.0
+select.hide { visibility: hidden; }
+
+/* End Support for the "iehover-fix.js" */
+	
+/* Confirmation page - Feature offers */
+.flight-confirmation .ad-box {
+width:645px;
+}
+.flight-confirmation .ad-box ul.four-columns li{
+margin-right:12px; } 
+/* Confirmation page - Flight Details End */	
+
+/* Processing Pages */
+/* FOR IE6 */
+.processing-pages{
+    padding-top: 65px;}
+/* End Processing Pages */
+
+
+/* Online Check-In page */
+.record-locator{
+ width: 294px;}
+/* End of Online Check-In page */
+
+/* Customer Credit Tab Alignment for IE6 */
+.redeem-travelvouchers-tabs ul.tab-big li a{
+ display:inline-block;}
+/* END Customer Credit Tab Alignment for IE6 */
+
+
+/* Boarding Pass */
+#boardingPassHeaderRow
+{
+	padding-left: 18px;
+}
+
+.timeStampInfo
+{
+	padding-left:10px;
+}
+
+#boardingPassRight
+{
+	width:26%;
+	height:350px;
+}
+
+#boardingPassRightBody
+{
+	padding:0px;
+	margin:0px;
+	float:right;	
+	width:138px;
+}
+
+#boardingPassBody
+{
+	padding-left:18px;
+}	
+	
+#boardingPassMainRow
+{
+	padding-left:18px;
+}	
+
+.mainSeatRequestInfo
+{
+	float:left;
+	margin-left: -202px;	
+}
+	
+#boardingPassThankYouNote
+{
+	padding-left:18px;
+}
+
+#leftContainer
+{
+	float:left;
+	width:60px;
+}
+
+#rightContainer
+{
+	float:right;
+	width:40px;
+}
+
+#boardingPassRightBody label.shortProceedToGate
+{
+	margin-left:1px;
+	font-size:6pt;
+}
+
+/* style sheet for print goes here */
+@media print 
+{
+	
+	.largeRect
+	{
+		width:725px;
+		height:330px;
+		margin-bottom:0px;
+	}
+	
+	#boardingPassBody
+	{
+		padding-left:18px;
+	}	
+	
+	#boardingPassHeaderRow
+	{
+		padding-top:0px;
+	}
+	
+	div.boardingPassDisplay p
+	{
+		width:725px;
+		font-size:8pt;
+	}
+	
+	.timeStampInfo
+	{
+		width:25%;
+	}	
+	
+	.bookingInfo
+	{
+		float:right;
+		width:20%;
+	}	
+		
+	.timeStampInfo label,
+	#boardingPassRightLogo label
+	{
+		font-size:8pt;
+	}
+	
+	.headerText,
+	#boardingPassThankYouNote
+	{
+		font-size:8pt;
+	}
+	
+	#boardingPassMainRow
+	{
+		padding-left:10px;
+	}	
+	
+	.mainBoardingTimeInfo
+	{
+		width:115px;
+	}	
+	
+	.mainGateInfo
+	{
+		width:155px;
+	}	
+	
+	.mainSeatRequestInfo
+	{
+		float:left;
+		margin-left: -340px;	
+		margin-top: 5px;
+	}
+	
+	#boardingPassThankYouNote
+	{
+		padding-left:18px;
+	}
+	
+	#boardingPassRight
+	{
+		height:330px;
+	}	
+	
+	.contentText
+	{
+		font-size:8pt;
+	}
+	
+	#boardingPassRightVertBarcode
+	{
+		padding-top:15px;
+	}	
+	
+	#boardingPassRightBody
+	{
+		font-size:8pt;
+		width:75%;
+	}
+
+	#boardingPassRightBody label
+	{
+		font-size:8pt;
+	}
+	
+	#boardingPassRightBody label.shortProceedToGate
+	{
+		margin-left:-3px;
+		font-size:5pt;
+	}
+	
+	#boardingPassRightBody label.seatLabel
+	{
+		font-size:12pt;
+	}	
+	
+	.seatBox
+	{
+		width:75%;
+	}
+	
+	.seatBox div
+	{
+		height:70px;
+	}
+	
+	#boardingPassRightBody label.seatExitLabel
+	{
+		font-size:10pt;
+		padding-left:0px;
+		margin-top:0px;		
+	}	
+
+	.mainRow
+	{
+		font-size:12pt;
+	}	
+	
+	.topNote
+	{
+		padding-bottom:8pt;
+		width:725px;
+	}	
+	
+	#leftContainer
+	{
+		width:55px;
+	}
+
+	#rightContainer
+	{
+		width:35px;
+	}	
+
+	.doNotPrint 
+	{
+		display: none;
+	}
+	
+	.disclaimerblue  
+	{  
+		font-family: verdana; 
+		font-size: 6pt; 
+		color: #000066;
+	}	
+	
+	.spacer
+	{
+		height:29px;
+	}
+	
+	.boardingPassPage 
+	{
+		page-break-after: always;
+		height:5px;
+	}
+}
+/* End of Boarding Pass */
+
+
+
+/* Calendar Page
+-----------------------------------------------------------------------------------------------*/
+
+/* ad */
+.ad { margin-left: -12px; padding-left: 0px; }
+
+
+/* -----------------------------------------------------------------------------------------------
+Calendar Page */
+
+
+
+	

@@ -1,0 +1,23 @@
+﻿.logo {
+    width:100%;
+}
+.benefits_block {
+    height: 275px;
+    position: relative
+}
+    h2.h3.hfixed {
+        margin-top: 15px;
+        text-align: center;
+    }
+.benefits_block_sm {
+    height: 200px;
+    position: relative
+}
+.moreInfoContainer {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+.moreinfo {
+    /*color: #dc0000;*/
+}

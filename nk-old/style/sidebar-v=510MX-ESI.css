@@ -1,0 +1,66 @@
+
+/* Sidebar, might require some changes to fit the current styles */
+  
+.sidebar
+{
+	float: right;
+	width: 250px;
+}
+
+/* banner styles */
+.banner-box{
+	position: relative;
+	margin-bottom: 10px;
+}
+.banner-box a{
+	display: block;
+	position: relative;
+	padding: 0; margin: 0;
+}
+.banner-box a img{
+	float: left;
+	border: none;
+}
+.banner-box250x250,
+.banner-box250x250 a{
+	width: 250px;
+	height: 250px;
+}
+.banner-box250x60,
+.banner-box250x60 a{
+	width: 250px;
+	height: 60px;
+}
+.banner-box120x240,
+.banner-box120x240 a{
+	width: 120px;
+	height: 240px;
+}
+.banner-box120x60,
+.banner-box120x60 a{
+	width: 120px;
+	height: 60px;
+}
+.banner-box120x240,
+.banner-box120x60{
+	float: left;
+}
+.banner-box-right{
+	float: right;
+}
+
+.rounded-tl,
+.rounded-tr,
+.rounded-bl,
+.rounded-br{
+	position: absolute; 
+	width: 6px;
+	height: 6px;
+	font-size: 1%;
+	line-height: 1;
+	background: url("../images/Base/Content/sidebar/banners_rounded.gif") no-repeat;
+}
+.rounded-tl{ top: 0; left: 0; background-position: -6px -6px;}
+.rounded-tr{ top: 0; right: 0; background-position: 0 -6px;}
+.rounded-bl{ bottom: 0; left: 0; background-position: -6px 0;}
+.rounded-br{ bottom: 0; right: 0; background-position: 0 0;}

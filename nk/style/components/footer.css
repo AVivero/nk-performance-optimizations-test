@@ -1,0 +1,493 @@
+﻿.main_footer {
+    background-color: #000;
+    color: #fff;
+    font-size: .78rem;
+    margin-top: 1.5rem;
+    margin-bottom: -1.25rem;
+}
+
+    .main_footer .row.fs-footer {
+        /*padding-bottom: .5rem*/
+    }
+
+    .main_footer .footer-nav h4 {
+        /*border-top: 1px solid #fff;*/
+        padding-top: .75rem;
+    }
+
+    .main_footer .footer-nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+        .main_footer .footer-nav ul li {
+            padding-top: .5rem;
+            margin-top: 0;
+        }
+
+    .main_footer .right-section h4 {
+        line-height: 2em;
+    }
+
+    .main_footer .right-section .app-section a {
+        display: block;
+        padding-bottom: .7rem;
+    }
+
+    .main_footer .right-section .app-section img {
+        width: 95%;
+        height: auto;
+        max-width: 9.2rem;
+    }
+
+    .main_footer ul.social {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+        .main_footer ul.social li {
+            display: inline-block;
+            padding: .5rem 0 .5rem .5rem;
+        }
+
+            .main_footer ul.social li:first-child {
+                padding-left: 0;
+            }
+
+            .main_footer ul.social li a {
+                display: inline-block;
+            }
+
+        /*.main_footer ul.social li img {
+	width: auto;
+	height: 100%;
+	min-height: 2rem;
+}*/
+
+        .main_footer ul.social li {
+            font-size: 2rem;
+        }
+
+            .main_footer ul.social li a:hover {
+                text-decoration: none;
+            }
+
+    .main_footer a, .main_footer a:hover {
+        color: #fff;
+    }
+
+    .main_footer .footer-logo {
+        width: 100%;
+        height: auto;
+        max-width: 9.44rem;
+    }
+
+    .main_footer .tagline {
+        padding: 1rem 0 .75rem 0;
+        position: relative;
+    }
+
+    .main_footer h3.freeSpiritTM {
+        white-space: nowrap;
+        font-size: 1.5rem;
+    }
+
+        .main_footer h3.freeSpiritTM + a {
+            white-space: nowrap;
+        }
+
+.ecardmarketing_footer {
+    background-color: #ffec00;
+    color: #000000;
+    font-size: .78rem;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.ecardimg {
+    max-height: 70px;
+    margin-top: -1em;
+    margin-bottom: .65em;
+}
+
+.bonusmilepencil {
+    font-size: 2.44rem;
+    line-height: 2.66rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.bonusmilefooter {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.ecardapplyfooter {
+    font-size: 1.15rem;
+}
+
+.innermarketing_footer {
+    margin-top: -5.6em;
+}
+
+/* CHEVRON TRI-BANNER */
+.chevron-banner-overflow {
+    overflow: hidden;
+    margin-top: 0em;
+}
+
+.chevron-banner {
+    position: relative;
+    text-align: center;
+    height: 90px;
+    width: 100px;
+    transform: rotate(-90deg);
+    margin-left: 115px;
+    margin-right: -175px;
+    /*left: -45px;*/
+    left: -110px;
+}
+
+    .chevron-banner:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 22px;
+        width: 51%;
+        background: #efefef;
+        -webkit-transform: skew(0deg, 20deg);
+        -moz-transform: skew(0deg, 20deg);
+        -ms-transform: skew(0deg, 20deg);
+        -o-transform: skew(0deg, 20deg);
+        transform: skew(0deg, 20deg);
+    }
+
+    .chevron-banner:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 22px;
+        width: 50%;
+        background: #efefef;
+        -webkit-transform: skew(0deg, -20deg);
+        -moz-transform: skew(0deg, -20deg);
+        -ms-transform: skew(0deg, -20deg);
+        -o-transform: skew(0deg, -20deg);
+        transform: skew(0deg, -20deg);
+    }
+
+.main_footer a.btn-secondary, .main_footer a.btn-secondary:hover {
+    color: #0073e6;
+}
+
+
+@media (min-width: 768px) {
+    /*.main_footer .right-section h4.social {
+		padding-top: .5rem;
+	}*/
+    .main_footer ul.social li {
+        display: inline-block;
+        padding-left: 1rem;
+    }
+
+    .main_footer .tagline .copyright {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        text-align: right;
+    }
+}
+
+@media (min-width: 992px) {
+    .main_footer ul.social li {
+        padding-left: 1.25rem;
+    }
+
+    .nav-legal h4 {
+        letter-spacing: -.15px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .main_footer h4 {
+        font-size: 1rem;
+    }
+
+    .bonusmilepencil {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .main_footer ul.social li {
+        padding-left: 1.75rem;
+    }
+    .chevron-banner {
+        left: -90px;
+    }
+}
+
+
+
+.footer-accordion .toggler .fa-chevron-down {
+    display: none;
+}
+
+.footer-accordion .toggler.collapsed .fa-chevron-down {
+    display: inline;
+}
+
+.footer-accordion .toggler .fa-chevron-right {
+    display: inline;
+}
+
+.footer-accordion .toggler.collapsed .fa-chevron-right {
+    display: none;
+}
+
+.footer-accordion .toggler-content h3, .toggler-content h4 {
+    display: inline;
+}
+
+.footer-accordion .toggler .row, #teamTravelRow {
+    margin-left: 0;
+}
+
+.footer-accordion .hfixed {
+    border-top: none;
+}
+
+.footer-accordion .toggler {
+    border-top: 1px solid white;
+}
+
+    .footer-accordion .toggler.no-border {
+        border-top: none;
+    }
+
+.footer-accordion .hfixed.teamtravel {
+    border-top: 1px solid white;
+    margin-right: 15px;
+}
+
+.footer-accordion .panel.panel-clear {
+    all: unset;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    border-radius: unset;
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+}
+
+@media (min-width: 768px) {
+    .main_footer .row {
+        margin-top: 1em;
+    }
+
+    .footer-accordion .toggler .toggler-icon {
+        display: none;
+    }
+
+    .footer-accordion .collapse {
+        height: auto !important;
+        display: block;
+    }
+
+    .footer-accordion .hidable {
+        display: none;
+    }
+
+    .footer-accordion .toggler.hidable-border {
+        border-top: none;
+    }
+
+    #teamTravelRow {
+        display: none;
+    }
+
+    #margin-tweak {
+        margin-bottom: 1em;
+    }
+
+    h4.hfixed.social {
+        padding-top: 0;
+    }
+
+    .row.social.header {
+        margin-top: 0;
+    }
+
+    .row.chevron-banner-overflow {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .main_footer .row.fs-footer {
+        padding-bottom: 0;
+    }
+
+    .footer-accordion .collapse.in {
+        margin-bottom: 10px;
+    }
+
+    .footer-accordion .toggler .toggler-icon {
+        display: inline;
+    }
+
+    .footer-accordion .toggler {
+        padding-bottom: .75rem;
+    }
+
+        .footer-accordion .toggler .row {
+            padding-top: .75rem;
+        }
+
+    #teamTravelRow, #teamTravelRow .hfixed {
+        margin-top: 0;
+    }
+
+        #teamTravelRow a:hover,
+        #teamTravelRow a:active,
+        #teamTravelRow a:visited {
+            text-decoration: none;
+        }
+
+    #homefooter .hfixed.social {
+        margin-top: 0;
+        border-top: 1px solid white;
+    }
+
+    .ecardmobile, .ecardmobileapply {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .bonusmilepencil {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .centered-mobile {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .ecardimg {
+        margin-top: 0em;
+    }
+
+    .ecardapply {
+        font-size: 1.15rem;
+    }
+
+    .ecardapplymobile {
+        text-align: center;
+    }
+
+    .bonusmilepencil {
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .main_footer .row.innermarketing_footer {
+        margin-top: -4.55em;
+    }
+
+    .ecardapplyfooter {
+        font-size: .9rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .main_footer .row.innermarketing_footer {
+        margin-top: -4.65em;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1023px) {
+    .main_footer .row.innermarketing_footer {
+        margin-top: -5.65em;
+    }
+}
+    @media (min-width: 768px) and (max-width: 991px) {
+        .main_footer .row.innermarketing_footer {
+            margin-top: -4.85em;
+        }
+    }
+
+@media (max-width: 736px) {
+    .main_footer .row.innermarketing_footer {
+        margin-top: 0em;
+    }
+}
+    @media (max-width: 425px) {
+        .bonusmilepencil {
+            font-size: 1rem;
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: -.45em;
+            padding-top: 10px;
+        }
+
+        .ecardmobileapply {
+            padding-left: 5px;
+            padding-right: 3px;
+        }
+
+        .ecardapply {
+            font-size: .9rem;
+            /* line-height: .9em; */
+            min-width: 4rem;
+            padding: 10px 3px 10px 3px;
+            min-height: 2rem;
+        }
+    }
+
+    @media (max-width: 375px) {
+
+        .bonusmilepencil {
+            font-size: .9rem;
+            margin-left: -.85em;
+        }
+
+        .ecardmobileapply {
+            padding-left: 5px;
+            padding-right: 3px;
+        }
+
+        .ecardapply {
+            font-size: .9rem;
+            line-height: .9em;
+            min-width: 4rem;
+            padding: 10px 3px 10px 2px;
+            min-height: 2rem;
+        }
+    }
+
+    @media (max-width: 320px) {
+        .bonusmilepencil {
+            font-size: .8rem;
+            margin-left: -.85em;
+            padding-top: 5px;
+        }
+
+        .ecardapply {
+            font-size: .75rem;
+            line-height: .9em;
+            min-width: 4rem;
+            padding: 5px 1px 1px 1px;
+            min-height: 2rem;
+        }
+    }
