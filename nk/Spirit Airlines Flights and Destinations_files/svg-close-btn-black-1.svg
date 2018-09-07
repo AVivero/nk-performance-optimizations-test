@@ -1,0 +1,28 @@
+<svg width="25" height="25" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>svg-close-btn-black-1</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(835 217)">
+<g id="svg-close-btn-black-1">
+<g id="Close Buttons">
+<g id="Group">
+<g id="Group">
+<g id="Oval">
+<use xlink:href="#path0_fill" transform="translate(-835 -217)" fill="#222222"/>
+</g>
+<g id="Line">
+<use xlink:href="#path1_stroke" transform="translate(-826.5 -208.5)" fill="#FFFFFF"/>
+</g>
+<g id="Line">
+<use xlink:href="#path2_stroke" transform="translate(-826.5 -208.5)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 12.5 25C 19.4036 25 25 19.4036 25 12.5C 25 5.59644 19.4036 0 12.5 0C 5.59644 0 0 5.59644 0 12.5C 0 19.4036 5.59644 25 12.5 25Z"/>
+<path id="path1_stroke" d="M -1.06066 6.93934L -2.12132 8L 0 10.1213L 1.06066 9.06066L -1.06066 6.93934ZM 9.06066 1.06066L 10.1213 0L 8 -2.12132L 6.93934 -1.06066L 9.06066 1.06066ZM 1.06066 9.06066L 9.06066 1.06066L 6.93934 -1.06066L -1.06066 6.93934L 1.06066 9.06066Z"/>
+<path id="path2_stroke" d="M 1.06066 -1.06066L 0 -2.12132L -2.12132 0L -1.06066 1.06066L 1.06066 -1.06066ZM 6.93934 9.06066L 8 10.1213L 10.1213 8L 9.06066 6.93934L 6.93934 9.06066ZM -1.06066 1.06066L 6.93934 9.06066L 9.06066 6.93934L 1.06066 -1.06066L -1.06066 1.06066Z"/>
+</defs>
+</svg>
